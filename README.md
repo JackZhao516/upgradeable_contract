@@ -1,20 +1,20 @@
-# 代码说明
+# ReadMe
 
-**逻辑合约 Tia.sol**
+**contract Tia.sol**
 
-v1版本部署
+version 1 deployment
 ```shell
 npx hardhat run scripts/1.deploy_tia.ts --network localhost
 ```
-与v1版本交互
+interact with version 1
 ```shell
 npx hardhat tia --network localhost
 ```
-升级v2
+upgrade to version 2
 ```shell
 npx hardhat run scripts/2.deploy_tiaV2.ts --network localhost
 ```
-与v2版本交互
+interact with version 2
 ```shell
 npx hardhat tiav2 --network localhost
 ```
